@@ -1,13 +1,7 @@
-python-paillier  |release|
-==========================
+# python-paillier 
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/sylvainpelissier/python-paillier/build.yml) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/sylvainpelissier/python-paillier/test.yml?label=Unit%20Test)
 
-+---------------------+
-|      |ciTest|       |
-+---------------------+
-|      |rtdM|         |
-+---------------------+
-|      |reqM|         |
-+---------------------+
+
 
 A Python 3 library implementing the Paillier Partially Homomorphic Encryption.
 
@@ -63,21 +57,3 @@ Developed at `Data61 | CSIRO <http://data61.csiro.au>`_.
 
 Parts derived from the Apache licensed Google project:
 https://code.google.com/p/encrypted-bigquery-client/
-
-
-.. |release| image:: https://img.shields.io/pypi/v/phe.svg
-    :target: https://pypi.python.org/pypi/phe/
-    :alt: Latest released version on PyPi
-
-.. |ciTest| image:: https://github.com/data61/python-paillier/actions/workflows/test.yml/badge.svg
-    :target: https://github.com/data61/python-paillier/actions/workflows/test.yml
-    :alt: CI Status
-
-.. |reqM| image:: https://requires.io/github/data61/python-paillier/requirements.svg?branch=master
-    :target: https://requires.io/github/data61/python-paillier/requirements/?branch=master
-    :alt: Requirements Status of master
-
-.. |rtdM| image:: https://readthedocs.org/projects/python-paillier/badge/?version=stable
-   :target: http://python-paillier.readthedocs.org/en/latest/?badge=stable
-   :alt: Documentation Status
-
